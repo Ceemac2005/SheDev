@@ -33,6 +33,12 @@ body {
     color: #29323d;
 }
 
+.btn.btn-primary:disabled{
+    background-color: lightgray;
+    color: #ff6624;
+    border: 1px solid grey;
+}
+
 
 /* Nav colours */
 .navbar-custom {
@@ -55,7 +61,7 @@ a.dropdown-item:hover {
 /* Hero */
 
 .bg-light {
-    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('images/header01.jpg');
+    background-image: linear-gradient(to left, rgba(0,0,0,0), rgba(0,0,0,0.2)), url('../images/header01.jpg');
     background-size: cover;
     background-position: center center;
 }
